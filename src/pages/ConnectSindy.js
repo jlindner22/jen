@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Container from "../components/container"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import styles from './connectSindy.module.css'
+import styles from './ConnectSindy.module.css'
 import Gameboard from "../../content/assets/Connect_Sindy_Gameboard.png"
 import Leaderboard from "../../content/assets/Connect_Sindy_Leaderboard.png"
 import Home from "../../content/assets/Connect_Sindy_Home.png"

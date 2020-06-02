@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Container from "../components/container"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import styles from './blinddate.module.css'
+import styles from './BlindDate.module.css'
 import Matches from "../../content/assets/BlindDate_Matches.png"
 import Home from "../../content/assets/BlindDate_Home.png"
 import MyProfile from "../../content/assets/BlindDate_MyProfile.png"
