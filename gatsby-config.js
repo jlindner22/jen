@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: ``,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`
+      name: `Jen Lindner`,
+      summary: `jigsaw puzzle solver and aspiring software engineer`
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Jen's Personal Website`,
+    siteUrl: `https://jlindner22.github.io/me/`,
     social: {
-      twitter: `kylemathews`
+      linkedin: `jen-lindner13/`,
+      github: `jlindner22/`
     }
   },
   plugins: [
@@ -66,9 +67,10 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        icon: `content/assets/letter-j-icon-png-26.png`
       }
     },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
