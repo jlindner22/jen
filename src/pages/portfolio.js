@@ -14,7 +14,7 @@ const User = props => (
         <div className={styles.description}>
         <Link to={props.link}> <h2 className={styles.name}>{props.name}</h2></Link>
         <p className={styles.excerpt}>{props.excerpt}</p>
-       {props.link ? <a href={props.app} target="_blank" rel="noopener noreferrer"> <h4>Check it out</h4>
+       {props.link ? <a href={props.app} target="_blank" rel="noopener noreferrer"> <p style={{ color: `navy`, fontWeight: `bold`}}>Check it out</p>
         </a> : null}
         </div>
     </div>
@@ -35,14 +35,14 @@ export default function Portfolio(props) {
             name="BlindDate"
             avatar= {BlindDateHome}
             excerpt="A social/dating application that facilitates relationships without the bias of user photos"
-            link='/me/BlindDate/'
+            link='/BlindDate/'
             app='http://blinddate-js.herokuapp.com/'
             />
             <User
             name="Connect Sindy"
             avatar= {SindyHome}
             excerpt="A cow-themed version of Connect Four"
-            link='/me/ConnectSindy/'
+            link='/ConnectSindy/'
             app='https://connect-sindy-frontend.herokuapp.com/'
             />
             <User
@@ -52,7 +52,6 @@ export default function Portfolio(props) {
             />
             <br></br>
             <p>Check out my <a href='https://github.com/jlindner22' target="_blank" rel="noopener noreferrer">GitHub</a> page to see what else I've been working on!</p>
-
     </div>
     </Container>
     </Layout>

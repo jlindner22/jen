@@ -4,29 +4,34 @@
     color: navy;
   } */
 
-  Link {
-    text-shadow: none;
-    background-image: none; 
-    text-decoration: none;
-  }
+Link {
+  text-shadow: none;
+  background-image: none; 
+  text-decoration: none;
+}
   
-  .homeButton {
-    display: inline;
-    margin-left: -15rem; 
-  }
+.homeButton {
+  /* display: inline; */
+  margin-top: -30px;
+  margin-left: -15rem; 
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+  margin-bottom: -50px;
+}
   
-  .rightLinks {
-    font-weight: bold;
-    margin-right: -15rem; 
-    list-style: none;
-    float: right;
-  }
+.rightLinks {
+  font-weight: bold;
+  margin-right: -15rem; 
+  list-style: none;
+  float: right;
+}
   
-    .line {
-      margin-top: 0px;
-      margin-left: -15rem; 
-      margin-right: -15rem; 
-      font-weight: bolder;
-      color: navy;
-      height: 1px;
-    }
+.line {
+  margin-top: 0px;
+  margin-left: -15rem; 
+  margin-right: -15rem; 
+  font-weight: bolder;
+  color: navy;
+  height: 1px;
+}

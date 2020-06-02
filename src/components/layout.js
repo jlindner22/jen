@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from './layout.module.css'
 import { rhythm, scale } from "../utils/typography"
+import icon from "../../content/assets/letter-j-icon-png-26.png"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -77,7 +78,8 @@ const Layout = ({ location, title, children }) => {
     >
    <header style={{ marginBottom: `1.5rem`}}>
         <Link to="/">
-          <h3 className={styles.homeButton}>Home</h3>
+          <img src={icon} className={styles.homeButton}></img>
+          {/* <h3 className={styles.homeButton}>Home</h3> */}
           {/* <img style={{ marginLeft: `-15rem`, width: `60px`, height: `90px`, borderRadius: `100%`}} src={PG} alt="hi"/> */}
         </Link>
         <ul className={styles.rightLinks}>

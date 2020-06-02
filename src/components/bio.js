@@ -70,7 +70,7 @@ const Bio = () => {
       <img className={styles.mainPic} src={ParkGuell}
          alt={author.name}
          />
-      <h2 style={{ marginTop: `0px`, fontVariant: `small-caps`}}><span>🎊</span> Welcome to my personal site <span> 🎉</span></h2>
+      <h2 style={{ marginTop: `0px`, fontVariant: `small-caps`}}><span>🎊</span> Welcome to my personal site <span> 🎊</span></h2>
       {/* <br></br> */}
     </div>
     </div>
