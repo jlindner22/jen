@@ -12,10 +12,11 @@ const User = props => (
     <div className={styles.user}>
         <img src={props.avatar} className={styles.avatar} alt="thumbnail" />
         <div className={styles.description}>
-        <Link to={props.link}> <h2 className={styles.name}>{props.name}</h2></Link>
+       {props.link ? <Link to={props.link}> <h2 className={styles.name}>{props.name}</h2></Link> :
+       <h2 className={styles.nonLink}>{props.name}</h2>}
         <p className={styles.excerpt}>{props.excerpt}</p>
        {props.link ? <a href={props.app} target="_blank" rel="noopener noreferrer"> <p style={{ color: `navy`, fontWeight: `bold`}}>Check it out</p>
-        </a> : null}
+        </a> : null }
         </div>
     </div>
 )
@@ -31,13 +32,6 @@ export default function Portfolio(props) {
         <div style={{ color: `navy` }}>
         <Header headerText="My Portfolio" />
         <p> Feel free to <a href="mailto:jenlindner22@gmail.com">contact me </a>with any questions!</p>
-        <User
-            name="BlindDate"
-            avatar= {BlindDateHome}
-            excerpt="A social/dating application that facilitates relationships without the bias of user photos"
-            link='/BlindDate/'
-            app='http://blinddate-js.herokuapp.com/'
-            />
             <User
             name="Connect Sindy"
             avatar= {SindyHome}
@@ -46,8 +40,16 @@ export default function Portfolio(props) {
             app='https://connect-sindy-frontend.herokuapp.com/'
             />
             <User
+            name="BlindDate"
+            avatar= {BlindDateHome}
+            excerpt="A social/dating application that facilitates relationships without the bias of user photos"
+            link='/BlindDate/'
+            app='http://blinddate-js.herokuapp.com/'
+            />
+            <User
             name="Carded"
             avatar= "https://i.redd.it/5kh9fzj413i01.jpg"
+            // link='/portfolio/'
             excerpt="IN PROGRESS: Business card designer application"
             />
             <br></br>

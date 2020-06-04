@@ -32,7 +32,7 @@ export default function About() {
                 <br></br>                
                 <User 
                 excerpt="I'm an enthusiastic jigsaw puzzle solver, chocolate consumer, standup comedy fan, shower singer, and aspiring software engineer.
-                After graduating from Colgate University with a BA in Psychology and working in Human Resources, I completed Flatiron School's Immersive Software Engineering program in New York City, where I learned how to build projects in Ruby on Rails, JavaScript, React, and Redux.
+                After graduating from Colgate University with a BA in Psychology and working in Human Resources, I realized that I wanted to focus on a more technology-based career. I completed Flatiron School's Immersive Software Engineering program in New York City, where I learned how to build projects in Ruby on Rails, JavaScript, React, and Redux.
                 I'm currently studying up on algorithms and Python, and I'm looking forward to building my first project in Python!
                 I also have a maltipoo named Tootoo who loves to code with me (or step on my keyboard, either works) - try to tell us apart!" 
                 avatar={PG}

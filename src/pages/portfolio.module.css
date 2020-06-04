@@ -32,3 +32,8 @@
 .excerpt {
   font-style: oblique;
 }
+
+.nonLink {
+  color: #007ACC;
+  padding: 0;
+}

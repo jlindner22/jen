@@ -66,7 +66,7 @@ import EditMainPage from "../../content/assets/BlindDate_EditMainPage.png"
           <User
           name="User Profile"
           screenshot= {UserProfile}
-          excerpt="Another user's profile, with the option to match with them"
+          excerpt="Other user's profile, with the option to match with them"
           />
           <User
           name="Edit Main Page"
@@ -79,7 +79,7 @@ import EditMainPage from "../../content/assets/BlindDate_EditMainPage.png"
           excerpt="One of multiple pages enabling the user to edit their account/profile"
           />
 
-    <a href='https://connect-sindy-frontend.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `25px`}}>Sign up now!</p></a>
+    <a href='http://blinddate-js.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `25px`}}>Sign up now!</p></a>
     <p style={{ color: `navy`}}><a href='https://github.com/jlindner22/BlindDate-frontend' target="_blank" rel="noopener noreferrer">Frontend </a> & <a href='https://github.com/jlindner22/BlindDate-backend' target="_blank" rel="noopener noreferrer">Backend</a> </p>
     </Container>
     </Layout>
