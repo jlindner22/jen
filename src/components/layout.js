@@ -84,7 +84,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
         <ul className={styles.rightLinks}>
           <ListLink to="/portfolio">Portfolio</ListLink>
-          <ListLink to="/about/">About</ListLink>
+          {/* <ListLink to="/about/">About</ListLink> */}
           <ListLink to="/contact/">Contact</ListLink>
         </ul>
       {/* <h2 className={styles.line}>_________________________________________________</h2> */}

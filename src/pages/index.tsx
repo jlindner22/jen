@@ -1,7 +1,8 @@
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+// import Bio from "../components/bio"
+import About from "../pages/about"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -36,7 +37,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Jen Lindner | Home" />
-      <Bio />
+      <About />
       {/* {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (

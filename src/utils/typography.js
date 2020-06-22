@@ -3,7 +3,8 @@
 
 import Typography from 'typography'
 import moragaTheme from 'typography-theme-moraga'
-moragaTheme.headerWeight = '400'
+moragaTheme.headerWeight = '500'
+// moragaTheme.bodyWeight = '399'
 
 
 const typography = new Typography(moragaTheme)

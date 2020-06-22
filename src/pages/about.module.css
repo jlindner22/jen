@@ -14,11 +14,11 @@
 
 .avatar {
   margin-right: -75px;
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 .excerpt {
-  margin: 10px;
+  margin: 20px;
   margin-left: 180px;
   text-align: justify;
 }

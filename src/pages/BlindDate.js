@@ -79,8 +79,8 @@ import EditMainPage from "../../content/assets/BlindDate_EditMainPage.png"
           excerpt="One of multiple pages enabling the user to edit their account/profile"
           />
 
-    <a href='http://blinddate-js.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `25px`}}>Sign up now!</p></a>
-    <p style={{ color: `navy`}}><a href='https://github.com/jlindner22/BlindDate-frontend' target="_blank" rel="noopener noreferrer">Frontend </a> & <a href='https://github.com/jlindner22/BlindDate-backend' target="_blank" rel="noopener noreferrer">Backend</a> </p>
+    <a href='http://blinddate-js.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `30px`}}>Sign up now!</p></a>
+    <p style={{ color: `navy`, fontSize: `22px`}}><a href='https://github.com/jlindner22/BlindDate-frontend' target="_blank" rel="noopener noreferrer">Frontend </a> & <a href='https://github.com/jlindner22/BlindDate-backend' target="_blank" rel="noopener noreferrer">Backend</a> </p>
     </Container>
     </Layout>
   )

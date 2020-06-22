@@ -44,8 +44,8 @@ export default function ConnectSindy(props) {
           screenshot= {Leaderboard}
           excerpt="See who else has played and view their game results"
           />
-<a href='https://connect-sindy-frontend.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `25px`}}>Play now!</p></a>
-<p style={{ color: `navy` }}><a href='https://github.com/crpineda1/connect-sindy-frontend' target="_blank" rel="noopener noreferrer">Frontend </a> & <a href='https://github.com/crpineda1/Connect-Sindy_backend' target="_blank" rel="noopener noreferrer">Backend</a> </p>
+<a href='https://connect-sindy-frontend.herokuapp.com/' target="_blank" rel="noopener noreferrer"> <p style={{ fontVariant: `small-caps`, fontWeight: `bolder`, fontSize: `30px`}}>Play now!</p></a>
+<p style={{ color: `navy`, fontSize: `22px` }}><a href='https://github.com/crpineda1/connect-sindy-frontend' target="_blank" rel="noopener noreferrer">Frontend </a> & <a href='https://github.com/crpineda1/Connect-Sindy_backend' target="_blank" rel="noopener noreferrer">Backend</a> </p>
 {/* <Link to='/portfolio'> <h5 style={{ textAlign: `left`}}>Back to Portfolio</h5></Link> */}
 
     </Container>

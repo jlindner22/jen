@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './about.module.css'
 import Container from '../components/container'
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 // import PG from "../../content/assets/PG2015.jpeg"
 // import TootooTable from "../../content/assets/TootooTable.jpeg"
 import deck from "../../content/assets/deck.jpeg"
@@ -21,11 +21,11 @@ const User = props => (
 
 export default function About() {
     return (
-        <Layout>
+        // <Layout>
+        <Container>
             <SEO title="Jen Lindner | About" />
-            <Container>
                 <h1 style={{ color: `#007ACC` }}>About Me</h1>
-                <br></br>                
+                {/* <br></br>                 */}
                 <h2 className={styles.greeting}>Hi, I'm Jen Lindner!</h2>            
                 <br></br>                
                 <br></br>                
@@ -39,20 +39,23 @@ export default function About() {
                 <br></br>                
                 <p style={{ color: `navy`, textAlign: `justify`, marginRight: `-20px`}}>I'm currently studying up on algorithms and Python, and I'm looking forward to building my first project in Python!
                 I also have a maltipoo named Tootoo who loves to code with me (or step on my keyboard, either works) - try to tell us apart!</p>
+                <br></br>
                 <h2 style={{ color: `navy`}}>My Technical Skills</h2>
                 <div style={{ color: `navy`, textAlign: `left` }}>
                     <li> JavaScript </li>
                     <li> React </li>
                     <li> Redux </li>
                     <li> Ruby on Rails </li>
+                    <li> Python </li>
                     <li> HTML </li>
                     <li> CSS </li>
-                    <ul> ...and I'm currently learning Python!</ul>
+                    {/* <ul> ...and I'm currently learning Python!</ul> */}
                     </div>
+                    <br></br>
                     <div style={{ color: `navy`, textAlign: `center`, fontWeight: `bold`, textDecoration: `none` }}>
-                    <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h4 style={{ color: `#007ACC`}}> Let's connect! </h4></a>
+                    <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h3 style={{ color: `#007ACC`}}> Let's connect! </h3></a>
                 </div>
             </Container>
-        </Layout>
+        // </Layout>
     )
 }
