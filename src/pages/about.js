@@ -13,12 +13,9 @@ const User = props => (
         <img src={props.avatar} className={styles.avatar} alt="Jen and Tootoo" />
         </div>
         <br></br>
+        <div>
         <p className={styles.excerpt}>{props.excerpt}</p>
-        {/* <div className={styles.flex}> */}
-        {/* <div>
-        <img className={styles.tootoo} src={props.image} alt="Tootoo"/>
-        </div> */}
-        {/* </div> */}
+        </div>
     </div>
 )
 
@@ -31,13 +28,17 @@ export default function About() {
                 <br></br>                
                 <h2 className={styles.greeting}>Hi, I'm Jen Lindner!</h2>            
                 <br></br>                
+                <br></br>                
+                <br></br>                
                 <User 
                 excerpt="I'm an enthusiastic jigsaw puzzle solver, chocolate consumer, standup comedy fan, shower singer, and aspiring software engineer.
                 After graduating from Colgate University with a BA in Psychology and working in Human Resources, I realized that I wanted to focus on a more technology-based career. I completed Flatiron School's Immersive Software Engineering program in New York City, where I learned how to build projects in Ruby on Rails, JavaScript, React, and Redux.
-                I'm currently studying up on algorithms and Python, and I'm looking forward to building my first project in Python!
-                I also have a maltipoo named Tootoo who loves to code with me (or step on my keyboard, either works) - try to tell us apart!" 
+                "
                 avatar={deck}
                 />
+                <br></br>                
+                <p style={{ color: `navy`, textAlign: `justify`, marginRight: `-20px`}}>I'm currently studying up on algorithms and Python, and I'm looking forward to building my first project in Python!
+                I also have a maltipoo named Tootoo who loves to code with me (or step on my keyboard, either works) - try to tell us apart!</p>
                 <h2 style={{ color: `navy`}}>My Technical Skills</h2>
                 <div style={{ color: `navy`, textAlign: `left` }}>
                     <li> JavaScript </li>
