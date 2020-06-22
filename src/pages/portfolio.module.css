@@ -21,6 +21,8 @@
 .description {
   flex: 1;
   margin-left: 40px;
+  /* margin-left: -40px; */
+  margin-right: -100px;
   /* padding: 12px; */
 }
   
@@ -32,6 +34,7 @@
 
 .excerpt {
   font-style: oblique;
+  /* text-align: left; */
 }
 
 .nonLink {

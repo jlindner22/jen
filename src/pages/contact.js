@@ -24,10 +24,10 @@ export default function Contact(props) {
       <img src={TootooLaptop} alt="Tootoo" style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 20,
-          maxWidth: `65%`,
+          // maxWidth: `65%`,
           minWidth: 10,
-          borderStyle: `inset`,
-          borderRadius: `30%`,
+          // borderStyle: `inset`,
+          // borderRadius: `30%`,
         }}/>
       <p> I'll get back to you as soon as Tootoo gets off my laptop... </p>
     </div>

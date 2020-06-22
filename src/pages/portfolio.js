@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import styles from './portfolio.module.css'
-import Container from "../components/portfolioContainer"
+import Container from "../components/container"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SindyHome from "../../content/assets/Connect_Sindy_Home.png"
@@ -49,7 +49,6 @@ export default function Portfolio(props) {
             <User
             name="Carded"
             avatar= "https://i.redd.it/5kh9fzj413i01.jpg"
-            // link='/portfolio/'
             excerpt="IN PROGRESS: Business card designer application"
             />
             <br></br>
