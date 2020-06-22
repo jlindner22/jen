@@ -49,7 +49,7 @@ const Bio = () => {
     > */}
     <div className={styles.outerDiv}>
         <div className={styles.divSpec}>
-        <h2 style={{ marginTop: `0px`, fontVariant: `small-caps`}}>Hi, I'm Jen! <span>👋🏻</span></h2>
+        <h2 style={{ color: `#007ACC`, marginTop: `0px`, fontVariant: `small-caps`}}>Hi, I'm Jen! <span>👋🏻</span></h2>
       {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
@@ -70,7 +70,7 @@ const Bio = () => {
       <img className={styles.mainPic} src={ParkGuell}
          alt={author.name}
          />
-      <h2 style={{ marginTop: `0px`, fontVariant: `small-caps`}}><span>🎊</span> Welcome to my personal site <span> 🎊</span></h2>
+      <h2 style={{ color: `#007ACC`, marginTop: `0px`, fontVariant: `small-caps`}}><span>🎊</span> Welcome to my personal site <span> 🎊</span></h2>
       {/* <br></br> */}
     </div>
     </div>

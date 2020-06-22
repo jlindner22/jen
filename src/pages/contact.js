@@ -26,7 +26,7 @@ export default function Contact(props) {
           marginBottom: 20,
           maxWidth: `65%`,
           minWidth: 10,
-          borderStyle: `ridge`,
+          borderStyle: `inset`,
           borderRadius: `30%`,
         }}/>
       <p> I'll get back to you as soon as Tootoo gets off my laptop... </p>

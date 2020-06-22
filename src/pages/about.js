@@ -24,7 +24,7 @@ export default function About() {
         <Layout>
             <SEO title="Jen Lindner | About" />
             <Container>
-                <h1 style={{ color: `navy` }}>About Me</h1>
+                <h1 style={{ color: `#007ACC` }}>About Me</h1>
                 <br></br>                
                 <h2 className={styles.greeting}>Hi, I'm Jen Lindner!</h2>            
                 <br></br>                
@@ -50,7 +50,7 @@ export default function About() {
                     <ul> ...and I'm currently learning Python!</ul>
                     </div>
                     <div style={{ color: `navy`, textAlign: `center`, fontWeight: `bold`, textDecoration: `none` }}>
-                    <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h4> Let's connect! </h4></a>
+                    <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h4 style={{ color: `#007ACC`}}> Let's connect! </h4></a>
                 </div>
             </Container>
         </Layout>

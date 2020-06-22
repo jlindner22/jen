@@ -6,7 +6,7 @@ module.exports = {
       summary: `jigsaw puzzle solver and aspiring software engineer`
     },
     description: `Jen's Personal Website`,
-    siteUrl: `https://jlindner22.github.io/me/`,
+    siteUrl: `https://www.jen-lindner.com`,
     social: {
       linkedin: `jen-lindner13/`,
       github: `jlindner22/`
