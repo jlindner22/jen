@@ -23,9 +23,8 @@ export default function About() {
     return (
         // <Layout>
         <Container>
-            <SEO title="Jen Lindner | About" />
+            <SEO title="Jen Lindner | Home" />
                 <h1 style={{ color: `#007ACC` }}>About Me</h1>
-                {/* <br></br>                 */}
                 <h2 className={styles.greeting}>Hi, I'm Jen Lindner!</h2>            
                 <br></br>                
                 <br></br>                
