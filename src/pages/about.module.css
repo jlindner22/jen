@@ -20,7 +20,7 @@
 .excerpt {
   margin: 20px;
   margin-left: 180px;
-  text-align: left;
+  /* text-align: justify; */
 }
 
 .user > div {

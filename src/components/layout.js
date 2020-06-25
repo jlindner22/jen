@@ -4,7 +4,6 @@ import styles from './layout.module.css'
 import { rhythm, scale } from "../utils/typography"
 import icon from "../../content/assets/letter-j-icon-png-26.png"
 
-
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
@@ -88,7 +87,9 @@ const Layout = ({ location, title, children }) => {
           {/* <ListLink to="/about/">About</ListLink> */}
           <ListLink to="/contact/">Contact</ListLink>
         </ul>
+      {/* <h2 className={styles.line}>_________________________________________________</h2> */}
       </header>
+        {/* _________________________________________________ */}
       <main style={{ margin: 0, padding: 0}}>{children}</main>
       <br></br>
       <footer style={{ color: `navy`, textAlign: `center`}}>

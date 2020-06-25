@@ -6,8 +6,6 @@ import Container from '../components/container'
 // import TootooTable from "../../content/assets/TootooTable.jpeg"
 import deck from "../../content/assets/deck.jpeg"
 import SEO from "../components/seo"
-import Helmet from "react-helmet"
-
 
 const User = props => (
     <div className={styles.user}>
@@ -23,8 +21,7 @@ const User = props => (
 
 export default function About() {
     return (
-        // <Helmet>
-        //     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        // <Layout>
         <Container>
             <SEO title="Jen Lindner | Home" />
                 <h1 style={{ color: `#007ACC` }}>About Me</h1>
@@ -58,6 +55,6 @@ export default function About() {
                     <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h3 style={{ color: `#007ACC`}}> Let's connect! </h3></a>
                 </div>
             </Container>
-    // </Helmet>
-)
+        // </Layout>
+    )
 }
