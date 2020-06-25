@@ -1,11 +1,7 @@
-// import Typography from "typography"
-// import Wordpress2016 from "typography-theme-wordpress-2016"
-
 import Typography from 'typography'
+// import Wordpress2016 from "typography-theme-wordpress-2016"
 import moragaTheme from 'typography-theme-moraga'
 moragaTheme.headerWeight = '500'
-// moragaTheme.bodyWeight = '399'
-
 
 const typography = new Typography(moragaTheme)
 // Wordpress2016.overrideThemeStyles = () => {

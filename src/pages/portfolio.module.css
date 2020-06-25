@@ -15,26 +15,21 @@
   margin: 0;
   border-style: solid;
   border-width: thin;
-  /* margin-right: 30px; */
 }
 
 .description {
   flex: 1;
   margin-left: 40px;
-  /* margin-left: -40px; */
   margin-right: -100px;
-  /* padding: 12px; */
 }
   
 .name {
-  /* margin: 0 0 12px 0; */
   padding: 0;
   color: #007ACC;
 }
 
 .excerpt {
   font-style: oblique;
-  /* text-align: left; */
 }
 
 .nonLink {

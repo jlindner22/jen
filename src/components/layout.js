@@ -27,46 +27,7 @@ const Layout = ({ location, title, children }) => {
          Welcome to Jen's World!
     </h1>
   )
-  // if (location.pathname === rootPath) {
-  //   header = (
-  //     <h1
-  //       style={{
-  //         ...scale(1.5),
-  //         marginBottom: rhythm(1.5),
-  //         marginTop: 0,
-  //       }}
-  //     >
-  //       <Link
-  //         style={{
-  //           boxShadow: `none`,
-  //           color: `inherit`,
-  //         }}
-  //         to={`/`}
-  //       >
-  //         {title}
-  //       </Link>
-  //     </h1>
-  //   )
-  // } else {
-  //   header = (
-  //     <h3
-  //       style={{
-  //         fontFamily: `Montserrat, sans-serif`,
-  //         marginTop: 0,
-  //       }}
-  //     >
-  //       <Link
-  //         style={{
-  //           boxShadow: `none`,
-  //           color: `inherit`,
-  //         }}
-  //         to={`/`}
-  //       >
-  //         {title}
-  //       </Link>
-  //     </h3>
-  //   )
-  // }
+  
   return (
     <div
       style={{
@@ -79,17 +40,12 @@ const Layout = ({ location, title, children }) => {
    <header style={{ marginBottom: `1.5rem`}}>
         <Link to="/">
           <img src={icon} className={styles.homeButton}></img>
-          {/* <h3 className={styles.homeButton}>Home</h3> */}
-          {/* <img style={{ marginLeft: `-15rem`, width: `60px`, height: `90px`, borderRadius: `100%`}} src={PG} alt="hi"/> */}
         </Link>
         <ul className={styles.rightLinks}>
           <ListLink to="/portfolio">Portfolio</ListLink>
-          {/* <ListLink to="/about/">About</ListLink> */}
           <ListLink to="/contact/">Contact</ListLink>
         </ul>
-      {/* <h2 className={styles.line}>_________________________________________________</h2> */}
       </header>
-        {/* _________________________________________________ */}
       <main style={{ margin: 0, padding: 0}}>{children}</main>
       <br></br>
       <footer style={{ color: `navy`, textAlign: `center`}}>
