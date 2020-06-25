@@ -1,11 +1,9 @@
 import React from 'react'
 import styles from './about.module.css'
 import Container from '../components/container'
-// import Layout from "../components/layout"
-// import PG from "../../content/assets/PG2015.jpeg"
-// import TootooTable from "../../content/assets/TootooTable.jpeg"
 import deck from "../../content/assets/deck.jpeg"
 import SEO from "../components/seo"
+import { Helmet } from 'react-helmet'
 
 const User = props => (
     <div className={styles.user}>
@@ -21,7 +19,10 @@ const User = props => (
 
 export default function About() {
     return (
-        // <Layout>
+        <div>
+        <Helmet>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        </Helmet>
         <Container>
             <SEO title="Jen Lindner | Home" />
                 <h1 style={{ color: `#007ACC` }}>About Me</h1>
@@ -55,6 +56,6 @@ export default function About() {
                     <a href="https://www.linkedin.com/in/jen-lindner13/" target="_blank" rel="noopener noreferrer"><h3 style={{ color: `#007ACC`}}> Let's connect! </h3></a>
                 </div>
             </Container>
-        // </Layout>
+        </div>
     )
 }
