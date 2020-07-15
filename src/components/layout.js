@@ -1,8 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import styles from './layout.module.css'
-import { rhythm, scale } from "../utils/typography"
-import icon from "../../content/assets/letter-j-icon-png-26.png"
+import React from "react";
+import { Link } from "gatsby";
+import styles from './layout.module.css';
+import { rhythm, scale } from "../utils/typography";
+import icon from "../../content/assets/letter-j-icon-png-26.png";
+import { Icon, InlineIcon } from '@iconify/react';
+import netlifyIcon from '@iconify/icons-logos/netlify';
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -50,6 +52,8 @@ const Layout = ({ location, title, children }) => {
       <br></br>
       <footer style={{ color: `navy`, textAlign: `center`}}>
         Built by Jennifer Lindner with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a> © {new Date().getFullYear()}
+       <p> Hosted on Netlify <Icon icon={netlifyIcon} />
+       </p>
       </footer>
     </div>
   )

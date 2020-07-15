@@ -31,7 +31,7 @@ export default function Portfolio(props) {
         {props.title}
         <div style={{ color: `navy` }}>
         <Header headerText="My Portfolio" />
-        <p> Feel free to <a href="mailto:jenlindner22@gmail.com">contact me </a>with any questions!</p>
+        <p style={{ fontSize: `17px`}}> Feel free to <a href="mailto:jenlindner22@gmail.com">contact me </a>with any questions!</p>
             <User
             name="Connect Sindy"
             avatar= {SindyHome}
