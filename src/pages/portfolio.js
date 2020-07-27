@@ -10,12 +10,12 @@ import BlindDateHome from "../../content/assets/BlindDate_Home.png"
     
 const User = props => (
     <div className={styles.user}>
-        <img src={props.avatar} className={styles.avatar} alt="thumbnail" />
+        <img src={props.avatar} className={styles.avatar} alt="thumbnail"/>
         <div className={styles.description}>
        {props.link ? <Link to={props.link}> <h2 className={styles.name}>{props.name}</h2></Link> :
        <h2 className={styles.nonLink}>{props.name}</h2>}
         <p className={styles.excerpt}>{props.excerpt}</p>
-       {props.link ? <a href={props.app} target="_blank" rel="noopener noreferrer"> <p style={{ color: `navy`, fontWeight: `bold`}}>Check it out</p>
+       {props.link ? <a href={props.app} target="_blank" rel="noopener noreferrer"><p style={{ color: `navy`, fontWeight: `bold`}}>Check it out</p>
         </a> : null }
         </div>
     </div>
