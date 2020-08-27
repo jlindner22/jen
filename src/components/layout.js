@@ -51,8 +51,8 @@ const Layout = ({ location, title, children }) => {
       <main style={{ margin: 0, padding: 0}}>{children}</main>
       <br></br>
       <footer style={{ color: `navy`, textAlign: `center`}}>
-        Built by Jennifer Lindner with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a> © {new Date().getFullYear()}
-       <p> Hosted on Netlify <Icon icon={netlifyIcon} />
+       Copyright © {new Date().getFullYear()} Jennifer Lindner. All rights reserved.
+       <p> Built with <a href="https://www.gatsbyjs.org">Gatsby</a> and hosted on Netlify <Icon icon={netlifyIcon} />
        </p>
       </footer>
     </div>

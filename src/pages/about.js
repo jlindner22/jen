@@ -46,7 +46,7 @@ export default function About() {
                 </div>       
                 <br></br>                
                 <User 
-                excerpt="I'm an enthusiastic jigsaw puzzle solver, chocolate consumer, stand-up comedy fan, shower singer, and aspiring software engineer.
+                excerpt="I'm an enthusiastic jigsaw puzzle solver, chocolate consumer, stand-up comedy fan, and shower singer transitioning to a new career in tech.
                 After graduating from Colgate University with a BA in Psychology and working in Human Resources, I realized that I wanted to focus on a more technology-based career. I completed Flatiron School's Immersive Software Engineering program in New York City, where I learned how to build projects in Ruby on Rails, JavaScript, React, and Redux.
                 "
                 avatar={deck}
